@@ -166,7 +166,7 @@
 			
 			var element = jQuery(create( input_id, aria_label, selected, type, labels_object, use_labels, use_icons ));
 			
-			element.click(function(){
+			element.on('click', function(){
 				if($object.is(':checked')){
 					$(element).attr('aria-checked', false);
 				}else{
@@ -174,7 +174,7 @@
 				}
 			});
 			
-			element.keypress(function(event){
+			element.on('keypress', function(event){
 				event.preventDefault();
 				if(event.keyCode === 32 || event.keyCode === 13){		
 					if($object.is(':checked')){
