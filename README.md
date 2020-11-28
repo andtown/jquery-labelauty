@@ -1,8 +1,4 @@
-># **This repository is no longer mantained.**
->
-> I recommend you to use reactive and modern JavaScript frameworks, such as VueJS and React.
-
-Labelauty jQuery Plugin
+Labelauty Enhanced
 =========
 
 A nice and lightweight jQuery plugin that gives beauty to checkboxes and
@@ -196,21 +192,6 @@ The included CSS file is tiny and simple. Don't be afraid to change it.
 Acknowledgements
 ----------------
 
-© 2013, Francisco Neves. Released under the [MIT License](License.md).
+© 2020, Anthon. Released under the [MIT License](License.md).
 
-**Labelauty** is authored and maintained by [Francisco Neves][francisconeves].
-
-[Contributors][c] can help to make this plugin better.
-
-You can follow [Trello of this repo](https://trello.com/b/bXfzw5mz/jquery-labelauty).
-
- * [My website](http://francisconeves.com) (francisconeves.com)
- * [Github](http://github.com/fntneves) (@fntneves)
- * [Twitter](http://twitter.com/fntneves) (@fntneves)
-
-[francisconeves]: http://www.francisconeves.com
-[c]:   http://github.com/fntneves/jquery-labelauty/contributors
-[jquery-labelauty.js]: https://github.com/fntneves/jquery-labelauty/blob/master/source/jquery-labelauty.js
-[jquery-labelauty.css]: https://github.com/fntneves/jquery-labelauty/blob/master/source/jquery-labelauty.css
-[images]: https://github.com/fntneves/jquery-labelauty/tree/master/source/images
-[Options]: https://github.com/fntneves/jquery-labelauty#options
+Thanks to the original author [Francisco Neves](http://github.com/fntneves) and [Contributors](http://github.com/fntneves/jquery-labelauty/contributors)
