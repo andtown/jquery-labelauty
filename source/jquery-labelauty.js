@@ -64,6 +64,9 @@
 		 */
 		return this.each(function()
 		{
+			var migrateDeduplicateWarnings = jQuery.migrateDeduplicateWarnings || false;
+			if (settings.development) jQuery.migrateDeduplicateWarnings = false;
+
 			var $object = $( this );
 			var selected = $object.is(':checked');
 			var type = $object.attr('type');
@@ -207,6 +210,7 @@
 				else
 					label_object.find( "span.labelauty-unchecked" ).width( checked_width );
 			}
+			if (settings.development) jQuery.migrateDeduplicateWarnings = migrateDeduplicateWarnings;
 		});
 	};
 
